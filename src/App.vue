@@ -1,7 +1,6 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
 </template>
@@ -21,10 +20,32 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: crimson;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: deepskyblue;
 }
+
+.btn-dark {
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
+}
+
+.btn-outline-dark {
+  background-color: #ffffff !important;
+  border-color: #2c3e50 !important;
+
+}
+
+.btn-dark:hover {
+  background-color: #415164 !important;
+  border-color: #415164 !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
+}
+
 </style>

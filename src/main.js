@@ -5,6 +5,7 @@ import VueAxios from "vue-axios";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
+import "@/assets/myStyle.css"
 
 // Font Awesome imports
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -24,3 +25,5 @@ app.use(VueAxios, axios)
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount('#app')
+
+import './assets/myStyle.css'
